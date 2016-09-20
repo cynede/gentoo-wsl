@@ -1,0 +1,10 @@
+diff --git a/hints/linux.sh b/hints/linux.sh
+index fb5a46e..7e2a117 100644
+--- a/hints/linux.sh
++++ b/hints/linux.sh
+@@ -533,3 +533,5 @@ case "$libdb_needs_pthread" in
+     libswanted="$libswanted pthread"
+     ;;
+ esac
++
++dont_use_nlink=1

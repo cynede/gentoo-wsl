@@ -15,6 +15,11 @@ Resolved
 
   - bug with nlink on perl: https://github.com/Microsoft/BashOnWindows/issues/186
 
+Suggestions
+-----------
+
+ - Add an exception for windows antivirus or disable them during emerge processes
+
 Known problems
 --------------
 

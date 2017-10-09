@@ -10,6 +10,7 @@ Installation
   - set root as default login by running `lxrun /setdefaultuser root` from windows powershell
   - after login `export TERM=xterm` and add it to `.bashrc`
   - switch to no-multilib profile `eselect profile set default/linux/amd64/13.0/no-multilib`
+  - put `sys-apps/portage -ipc` into `/etc/portage/profile/package.use.force` it doesn't work well with ipc
 
 Resolved
 --------
